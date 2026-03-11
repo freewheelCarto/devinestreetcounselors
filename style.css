@@ -11,30 +11,44 @@ body {
 
 /* Hero Section */
 .hero {
-	font-family: 'Montserrat';
-    height: 60vh;
+	
+    height: 50vh;
+	max-height:375px;
     background: linear-gradient(rgba(8, 25, 33,0.5), rgba(8, 25, 33,0.8)), 
                 url(img/banner2.JPG) center/cover;
 	background-position: center 75%;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     color: white;
     text-align: center;
 }
 
 .hero h1 {
-	font-size: 4rem;
-	font-weight: 600;
 	color:white;
 	text-shadow: 2px 2px 3px #333;
+	line-height: 1.2;
+	letter-spacing:0.2rem;
 }
 
-.hero h2 {
-	font-size: 3rem;
+#devinestreet {
+	font-family:'Radio Canada';
+	font-size:3rem;
+	font-weight:600;
+	
+}
+
+#collective {
+	font-family: 'Radio Canada';
+	font-size:4rem;
+	font-weight:600;
+}
+
+.lead h2 {
+	font-size: 2rem;
 	font-weight: 400;
 	text-shadow: 2px 2px 3px #333;
-	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .lead {
@@ -48,9 +62,18 @@ body {
 }
 
 .lead p {
-	font-size: 1.7rem;
-	margin: 0 5%;
+	font-size: 1.5rem;
+	font-weight:400px;
+	margin: 10px 5%;
 	text-align:center;
+}
+
+.gradient-divider {
+	border: none;
+	height: 2px; /* Adjust the thickness of the line */
+  
+	/* Apply the gradient background */
+	background-image: linear-gradient(to right, rgba(255, 255, 255,0),rgba(255, 255, 255,1),rgba(255, 255, 255,0));
 }
 
 /* Staff Section */
@@ -132,16 +155,24 @@ footer {
 }
 
 @media (max-width: 600px) {
-    .hero h1 {
-        font-size: 2.8rem;
-    }
-	.hero h2 {
-		font-size: 2.1rem;
-		margin-top: 20px;
+    
+	
+	#devinestreet {
+		font-size:2.5rem;
+		font-weight:bold;
+	}
+
+	#collective {
+		font-size:3rem;
+		font-weight: bold;
+	}
+	.lead h2 {
+		font-size: 1.7rem;	
+		font-weight:500;
 	}
 	
 	.lead p{
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 	}
 	
     .staff-section {
@@ -152,14 +183,15 @@ footer {
 		margin-top: -90px;
 	}
 	
-
 }
 
+/*
 @media (max-width: 380px) {
     .hero h1 {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
+		font-weight: 900;
     }
-	.hero h2 {
+	.lead h2 {
 		font-size: 1.8rem;
 		margin-top: 20px;
 	}
@@ -178,3 +210,4 @@ footer {
 
 }
 
+*/
