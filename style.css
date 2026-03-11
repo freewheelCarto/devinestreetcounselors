@@ -11,10 +11,8 @@ body {
 
 /* Hero Section */
 .hero {
-	
-    height: 50vh;
-	max-height:375px;
-    background: linear-gradient(rgba(8, 25, 33,0.5), rgba(8, 25, 33,0.8)), 
+	height:350px;
+    background: radial-gradient(rgba(8, 25, 33,0.5), rgba(8, 25, 33,0.8)), 
                 url(img/banner2.JPG) center/cover;
 	background-position: center 75%;
     display: flex;
@@ -156,15 +154,18 @@ footer {
 
 @media (max-width: 600px) {
     
+	.hero h1 {
+		letter-spacing: 0.1rem;
+	}
 	
 	#devinestreet {
 		font-size:2.5rem;
-		font-weight:bold;
+		font-weight:600;
 	}
 
 	#collective {
 		font-size:3rem;
-		font-weight: bold;
+		font-weight: 600;
 	}
 	.lead h2 {
 		font-size: 1.7rem;	
