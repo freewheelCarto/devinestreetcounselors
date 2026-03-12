@@ -12,34 +12,38 @@ body {
 /* Hero Section */
 .hero {
 	height:350px;
-    background: radial-gradient(rgba(8, 25, 33,0.5), rgba(8, 25, 33,0.8)), 
-                url(img/banner2.JPG) center/cover;
-	background-position: center 75%;
+    background: radial-gradient(rgba(8, 37, 40,0.6), rgba(8, 37, 40,0.9)), 
+                url(img/banner1.JPG) center/cover;
+	background-position: center 65%;
     display: flex;
     align-items: top;
     justify-content: center;
     color: white;
-    text-align: center;
+    
+}
+
+.headers {
+	text-align:center;
 }
 
 .hero h1 {
 	color:white;
-	text-shadow: 2px 2px 3px #333;
-	line-height: 1.2;
-	letter-spacing:0.2rem;
+	/*text-shadow: 1px 1px 3px #666;*/
+	line-height: 1.1;
+	letter-spacing:0.1rem;
 }
 
 #devinestreet {
 	font-family:'Radio Canada';
-	font-size:3rem;
-	font-weight:600;
-	
+	font-size:2.3rem;
+	font-weight:bold;
 }
 
 #collective {
-	font-family: 'Radio Canada';
-	font-size:4rem;
-	font-weight:600;
+	font-family: 'Montserrat';
+	font-size:4.2rem;
+	font-weight:100;
+
 }
 
 .lead h2 {
@@ -54,9 +58,9 @@ body {
 	padding: 20px 5%; 
 	font-family: 'Montserrat';
 	line-height: 1.7;
-	background: linear-gradient(to right, rgba(8, 25, 33),rgb(8, 37, 40)) ;
+	background: linear-gradient(to left, rgba(8, 40, 37),rgb(8, 37, 40)) ;
 	color:#fff;
-	box-shadow:2px 2px 3px #000;
+	box-shadow:2px 2px 3px #222;
 }
 
 .lead p {
@@ -94,7 +98,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
-	background:rgb(226, 227, 225);
+	background:rgb(225, 227, 227);
 	font-size: 1.1rem;
 }
 
@@ -121,7 +125,7 @@ body {
 footer {
 	font-family: 'Montserrat';
 	line-height: 1.7;
-	background: rgba(8, 25, 33) ;
+	background: rgb(8, 37, 40) ;
 	color:#fff;
 	font-size:1.4rem;
 	padding-bottom:50px;
@@ -159,13 +163,13 @@ footer {
 	}
 	
 	#devinestreet {
-		font-size:2.5rem;
-		font-weight:600;
+		font-size:2rem;
+		font-weight:bold;
 	}
 
 	#collective {
 		font-size:3rem;
-		font-weight: 600;
+		font-weight: regular;
 	}
 	.lead h2 {
 		font-size: 1.7rem;	
