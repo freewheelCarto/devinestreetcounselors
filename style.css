@@ -13,7 +13,7 @@ body {
 .hero {
 	height:350px;
     background: radial-gradient(rgba(8, 37, 40,0.6), rgba(8, 37, 40,0.9)), 
-                url(img/banner1.JPG) center/cover;
+                url(img/banner.jpg) center/cover;
 	background-position: center 65%;
     display: flex;
     align-items: top;
